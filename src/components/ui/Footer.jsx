@@ -2,8 +2,7 @@ import React from "react";
 
 const Footer = () => {
   const yourName = "Shaon An Nafi";
-  const githubUsername = "Nafisarkar";
-  const githubUrl = `https://github.com/${githubUsername}`;
+  const githubUrl = `https://www.shaonannafi.me/`;
   return (
     <footer className="w-full py-4 mt-auto">
       <div className="container mx-auto px-4">
