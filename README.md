@@ -1,4 +1,4 @@
-# ⌨️ Shadcn Typing Test
+# ⌨️ Typo-WordRush
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18+-61DAFB?logo=react)](https://react.dev/)
