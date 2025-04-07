@@ -8,8 +8,7 @@
 
 Test and improve your typing speed and accuracy with this sleek, timed typing challenge built using React, Vite, Tailwind CSS, and Shadcn UI.
 
-![Screenshot Placeholder](./path/to/your/screenshot.png)
-*(Replace this with a GIF or screenshot of your app!)*
+![Screenshot Placeholder](./public/cover.png)
 
 ---
 
