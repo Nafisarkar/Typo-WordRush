@@ -6,12 +6,14 @@ import Footer from "@/components/ui/Footer";
 const GAME_DURATION = 60;
 
 const Homepage = () => {
-  const { gameState, startGame, endGame } = useContext(UserContext);
+  const { gameState, startGame, endGame, setGameState } =
+    useContext(UserContext);
 
   const handleTimeUp = useCallback(() => {
     console.log("Time is up!");
     endGame();
-  }, [endGame]);
+    setGameState("idle");
+  }, [endGame, setGameState]);
 
   useEffect(() => {
     const handleStartKey = (event) => {

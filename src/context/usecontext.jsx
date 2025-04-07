@@ -328,6 +328,7 @@ const UserContextProvider = (props) => {
         finalScore,
         startGame,
         endGame,
+        setGameState,
         resetGame,
       }}
     >
