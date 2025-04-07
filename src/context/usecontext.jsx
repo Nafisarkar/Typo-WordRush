@@ -1,4 +1,3 @@
-// context/usecontext.jsx
 import React, { createContext, useState, useCallback } from "react";
 
 export const UserContext = createContext();

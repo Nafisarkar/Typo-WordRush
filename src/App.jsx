@@ -1,4 +1,3 @@
-// App.jsx
 import React from "react";
 import UserContextProvider from "./context/usecontext"; // Adjust path
 import Homepage from "./page/Homepage"; // Adjust path
@@ -38,7 +37,7 @@ const App = () => {
       window.removeEventListener("click", handleFirstInteraction);
       window.removeEventListener("keydown", handleFirstInteraction);
     };
-  }, [hasInteracted]); 
+  }, [hasInteracted]);
   return (
     <UserContextProvider>
       <Homepage />
